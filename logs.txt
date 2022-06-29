@@ -1,7 +1,1 @@
-Random number is: 3
-[main 3883820] 2022-06-28-14-23-04
- 2 files changed, 2 insertions(+), 5 deletions(-)
-[main 85b8367] 2022-06-28-14-23-06
- 2 files changed, 3 insertions(+), 1 deletion(-)
-[main 8e4f803] 2022-06-28-14-23-09
- 2 files changed, 3 insertions(+), 1 deletion(-)
+Random number is: 10
