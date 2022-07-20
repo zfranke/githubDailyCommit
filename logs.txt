@@ -1,14 +1,1 @@
-Random number is: 6
-[main 63fad7f] 2022-07-10-16-13-50
- 2 files changed, 2 insertions(+), 13 deletions(-)
- rewrite logs.txt (100%)
-[main ee5751c] 2022-07-10-16-13-52
- 2 files changed, 4 insertions(+), 1 deletion(-)
-[main 95ab565] 2022-07-10-16-13-54
- 2 files changed, 3 insertions(+), 1 deletion(-)
-[main a8853df] 2022-07-10-16-13-56
- 2 files changed, 3 insertions(+), 1 deletion(-)
-[main 9e571e2] 2022-07-10-16-13-57
- 2 files changed, 3 insertions(+), 1 deletion(-)
-[main 87d1668] 2022-07-10-16-13-59
- 2 files changed, 3 insertions(+), 1 deletion(-)
+Random number is: 1
