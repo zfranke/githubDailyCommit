@@ -22,6 +22,12 @@ for (( i=0; i<$randomNumber; i++ )); do
     git push origin main
 done
 
+#Do a final commit to ensure all changes are up, including for the logs
+git add . >> logs.txt
+git commit -m "`date +%Y-%m-%d-%H-%M-%S`" >> logs.txt
+git push origin main
+
+
 # Exit the script.
 exit 0
 

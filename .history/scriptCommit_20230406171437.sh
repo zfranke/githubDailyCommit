@@ -5,11 +5,14 @@
 #   scriptCommit.sh
 #
 
-#Create a random number generator
-RANDOM=$$
+#Create a random number generator between 1 and 10 
+randomNumber=$((RANDOM%10+1))
+
+#Echo the randomNumber to the screen
+echo "Random number is: $randomNumber" > logs.txt
 
 # For loop that will execute the given code for the random value
-for (( i=0; i<$RANDOM; i++ )); do
+for (( i=0; i<$randomNumber; i++ )); do
     # Change the fileChange.txt file to the current date and time.
     echo "`date +%Y-%m-%d-%H-%M-%S`" > fileChange.txt
 
@@ -18,6 +21,12 @@ for (( i=0; i<$RANDOM; i++ )); do
     git commit -m "`date +%Y-%m-%d-%H-%M-%S`" >> logs.txt
     git push origin main
 done
+
+#Do a final commit to ensure all changes are up, including for the logs
+git add . >> logs.txt
+git commit -m "`date +%Y-%m-%d-%H-%M-%S`" >> logs.txt
+git push origin main
+
 
 # Exit the script.
 exit 0
