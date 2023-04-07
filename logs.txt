@@ -11,3 +11,9 @@ Random number is: 5
  2 files changed, 3 insertions(+), 1 deletion(-)
 [main 40c7bf8] 2023-04-06-17-16-18
  2 files changed, 3 insertions(+), 1 deletion(-)
+[main 123cc55] 2023-04-06-17-16-21
+ 5 files changed, 2 insertions(+), 70 deletions(-)
+ delete mode 100644 .history/fileChange_20220627214559.txt
+ delete mode 100644 .history/fileChange_20220627214616.txt
+ delete mode 100644 .history/scriptCommit_20230406171437.sh
+ delete mode 100644 .history/scriptCommit_20230406171600.sh
